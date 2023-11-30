@@ -88,9 +88,9 @@ config:
   - name: Daniel Franco-Barranco
     email: daniel.franco@dipc.org
     github: danifranco
-      affiliation:
-        - name: DIPC
-          url: https://dipc.ehu.eus/en
+    affiliation:
+      - name: DIPC
+        url: https://dipc.ehu.eus/en
 collection:
 
   #------------------------------------- Models ---------------------------------------------
