@@ -46,7 +46,7 @@ authors:
     orcid: "0000-0002-2329-5484"
 documentation: https://biapy.readthedocs.io/en/latest/
 maintainers:
- name: "Daniel Franco-Barranco"
+  - name: "Daniel Franco-Barranco"
     github_user: danifranco
     affiliation: "Donostia International Physics Center"
     orcid: "0000-0002-1109-110X"
