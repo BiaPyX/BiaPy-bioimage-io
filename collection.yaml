@@ -95,7 +95,7 @@ collection:
 
   #------------------------------------- Models ---------------------------------------------
   - type: application
-    id: BiaPy
+    id: biapy
     name: BiaPy
     description: "BiaPy is an open source Python library for building bioimage analysis pipelines"
     format_version: 0.2.2
@@ -116,7 +116,7 @@ collection:
 
   # Semantic segmentation
   - type: application
-    id: Notebook_Semantic_Segmentation_2D_BiaPy
+    id: notebook_semantic_segmentation_2d_biapy
     name: Semantic Segmentation (2D) - BiaPy
     description: 2D Semantic Segmentation workflow where the goal is to associate a label to every pixel of the input image. There is no restriction in the type of images that can be used as long as they are 2D files. 
     cite:
@@ -140,7 +140,7 @@ collection:
       - Notebook Preview
 
   - type: application
-    id: Notebook_Semantic_Segmentation_3D_BiaPy
+    id: Notebook_semantic_segmentation_3d_biapy
     name: Semantic Segmentation (3D) - BiaPy
     description: 3D Semantic Segmentation workflow where the goal is to associate a label to every pixel of the input image. There is no restriction in the type of images that can be used as long as they are 3D files. 
     cite:
@@ -165,7 +165,7 @@ collection:
 
   # Instance segmentation
   - type: application
-    id: Notebook_Instance_Segmentation_2D_BiaPy
+    id: notebook_instance_segmentation_2d_biapy
     name: Instance Segmentation (2D) - BiaPy
     description: 2D Instance Segmentation workflow where the goal is to detect, segment, and classify the individual objects of interest in the input image. BiaPy uses a bottom-up approach in instance segmentation workflows by learning the binary masks, contours, and (optionally) the distance map of the objects of interest. There is no restriction in the type of images that can be used as long as they are 2D files. 
     cite:
@@ -189,7 +189,7 @@ collection:
       - Notebook Preview
 
   - type: application
-    id: Notebook_Instance_Segmentation_3D_BiaPy
+    id: notebook_instance_segmentation_3d_biapy
     name: Instance Segmentation (3D) - BiaPy
     description: 3D Instance Segmentation workflow where the goal is to detect, segment, and classify the individual objects of interest in the input image. BiaPy uses a bottom-up approach in instance segmentation workflows by learning the binary masks, contours, and (optionally) the distance map of the objects of interest. There is no restriction in the type of images that can be used as long as they are 3D files. 
     cite:
@@ -214,7 +214,7 @@ collection:
 
   # Detection
   - type: application
-    id: Notebook_Detection_2D_BiaPy
+    id: notebook_detection_2d_biapy
     name: Detection (2D) - BiaPy
     description: 2D Detection workflow where the goal is localize objects in the input image, not requiring a pixel-level class, by extracting individual points at their center of mass. There is no restriction in the type of images that can be used as long as they are 2D files. 
     cite:
@@ -238,7 +238,7 @@ collection:
       - Notebook Preview
 
   - type: application
-    id: Notebook_Detection_3D_BiaPy
+    id: notebook_detection_3d_biapy
     name: Detection (3D) - BiaPy
     description: 3D Detection workflow where the goal is localize objects in the input image, not requiring a pixel-level class, by extracting individual points at their center of mass. There is no restriction in the type of images that can be used as long as they are 3D files. 
     cite:
@@ -263,7 +263,7 @@ collection:
 
   # Denoising
   - type: application
-    id: Notebook_Denoising_2D_BiaPy
+    id: notebook_denoising_2d_biapy
     name: Denoising (2D) - BiaPy
     description: 2D Denoising workflow where the goal is to remove the noise from the input image. Our library includes Noise2Void without relying on noise image pairs nor clean target images to train the model. There is no restriction in the type of images that can be used as long as they are 2D files. 
     cite:
@@ -287,7 +287,7 @@ collection:
       - Notebook Preview
 
   - type: application
-    id: Notebook_Denoising_3D_BiaPy
+    id: notebook_denoising_3d_biapy
     name: Denoising (3D) - BiaPy
     description: 3D Denoising workflow where the goal is to remove the noise from the input image. Our library includes Noise2Void without relying on noise image pairs nor clean target images to train the model. There is no restriction in the type of images that can be used as long as they are 3D files. 
     cite:
@@ -312,7 +312,7 @@ collection:
   
   # Super-resolution
   - type: application
-    id: Notebook_Super_Resolution_2D_BiaPy
+    id: notebook_super_resolution_2d_biapy
     name: Super_Resolution (2D) - BiaPy
     description: 2D Super Resolution workflow where the goal is to reconstruct high-resolution (HR) images from low-resolution (LR) ones. There is no restriction in the type of images that can be used as long as they are 2D files. 
     cite:
@@ -336,7 +336,7 @@ collection:
       - Notebook Preview
 
   - type: application
-    id: Notebook_Super_Resolution_3D_BiaPy
+    id: notebook_super_resolution_3d_biapy
     name: Super Resolution (3D) - BiaPy
     description: 3D Super Resolution workflow where the goal is to reconstruct high-resolution (HR) images from low-resolution (LR) ones. There is no restriction in the type of images that can be used as long as they are 3D files. 
     cite:
@@ -361,7 +361,7 @@ collection:
   
   # Self-supervised learning
   - type: application
-    id: Notebook_Self_Supervision_2D_BiaPy
+    id: notebook_self_supervision_2d_biapy
     name: Self_Supervision (2D) - BiaPy
     description: 2D Self Supervision workflow where the idea is to pretrain the backbone model by solving a so-called pretext task without labels. This way, the model learns a representation that can be later transferred to solve a downstream task in a labeled (but smaller) dataset. There is no restriction in the type of images that can be used as long as they are 2D files. 
     cite:
@@ -385,7 +385,7 @@ collection:
       - Notebook Preview
 
   - type: application
-    id: Notebook_Self_Supervision_3D_BiaPy
+    id: notebook_self_supervision_3d_biapy
     name: Self_Supervision (3D) - BiaPy
     description: 3D Self Supervision workflow where the idea is to pretrain the backbone model by solving a so-called pretext task without labels. This way, the model learns a representation that can be later transferred to solve a downstream task in a labeled (but smaller) dataset. There is no restriction in the type of images that can be used as long as they are 3D files. 
     cite:
@@ -410,7 +410,7 @@ collection:
 
   # Classification
   - type: application
-    id: Notebook_Classification_2D_BiaPy
+    id: notebook_classification_2d_biapy
     name: Classification (2D) - BiaPy
     description: 2D Classification workflow where full input images are labeled as belonging to a predefined set of classes. There is no restriction in the type of images that can be used as long as they are 2D files. 
     cite:
@@ -434,7 +434,7 @@ collection:
       - Notebook Preview
 
   - type: application
-    id: Notebook_Classification_3D_BiaPy
+    id: notebook_classification_3d_biapy
     name: Classification (3D) - BiaPy
     description: 3D Classification workflow where full input images are labeled as belonging to a predefined set of classes. There is no restriction in the type of images that can be used as long as they are 3D files. 
     cite:
