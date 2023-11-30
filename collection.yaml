@@ -1,0 +1,458 @@
+format_version: 0.2.2
+type: collection
+name: BiaPy Collection
+tags: [biapy, bioimage.io]
+description: "Resources for BioImgage.IO curated by the BiaPy team."
+authors:
+  - name: "Daniel Franco-Barranco"
+    github_user: danifranco
+    affiliation: "Donostia International Physics Center"
+    orcid: "0000-0002-1109-110X"
+  - name: "Ignacio Arganda-Carreras"
+    github_user: iarganda
+    affiliation: "University of the Basque Country (UPV/EHU)"
+    orcid: "0000-0003-0229-5722"
+  - name: "Arrate Muñoz-Barrutia"
+    github_user: arratemunoz
+    affiliation: "Universidad Carlos III de Madrid"
+    orcid: "0000-0002-1573-1661"
+  - name: "Jesús Ángel Andrés-San Román"
+    github_user: jansanrom
+    affiliation: "University of Seville"
+    orcid: "0000-0003-3197-5014"
+  - name: "Pedro Javier Gómez Gálvez"
+    github_user: pedgomgal1
+    affiliation: "Cambridge University"
+    orcid: "0000-0002-0509-227X"
+  - name: "Luis M. Escudero"
+    github_user: lmescu
+    affiliation: "University of Seville"
+    orcid: "0000-0001-8030-1820"
+  - name: "Iván Hidalgo Cenalmor"
+    github_user: IvanHCenalmor
+    affiliation: "Instituto Gulbenkian de Ciência"
+    orcid: "0009-0000-8923-568X"
+  - name: "Lenka Backová"
+    github_user: lenkaback
+    affiliation: "Biofisika Institute"
+    orcid: "0000-0002-3076-2618"
+  - name: "Aitor Gonzalez-Marfil"
+    github_user: AAitorG
+    affiliation: "University of the Basque Country (UPV/EHU)"
+    orcid: "0000-0003-1367-4154"
+  - name: "Donglai Wei"
+    github_user: donglaiw
+    affiliation: "Boston College"
+    orcid: "0000-0002-2329-5484"
+documentation: https://biapy.readthedocs.io/en/latest/
+maintainers:
+ name: "Daniel Franco-Barranco"
+    github_user: danifranco
+    affiliation: "Donostia International Physics Center"
+    orcid: "0000-0002-1109-110X"
+  - name: "Ignacio Arganda-Carreras"
+    github_user: iarganda
+    affiliation: "University of the Basque Country (UPV/EHU)"
+    orcid: "0000-0003-0229-5722"
+  - name: "Lenka Backová"
+    github_user: lenkaback
+    affiliation: "Biofisika Institute"
+    orcid: "0000-0002-3076-2618"
+  - name: "Aitor Gonzalez-Marfil"
+    github_user: AAitorG
+    affiliation: "University of the Basque Country (UPV/EHU)"
+    orcid: "0000-0003-1367-4154"
+cite:
+  - text: "Franco-Barranco, Daniel et al. BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+    doi: 10.1109/ISBI53787.2023.10230593
+config: 
+  id: biapy
+  name: BiaPy
+  version: 3.1.0
+  tags:
+    - BiaPy
+  logo: https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/logos/BiaPy_256.png
+  icon: https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/logos/BiaPy_256.png
+  splash_title: BiaPy
+  splash_subtitle: "BiaPy is an open source Python library for building bioimage analysis pipelines"
+  splash_feature_list: []
+  explore_button_text: "Start Exploring"
+  background_image: "static/img/zoo-background.svg"
+  resource_types:
+    - model
+    - application
+  default_type: model
+  url_root: https://github.com/danifranco/BiaPy-bioimage-io
+  docs: https://biapy.readthedocs.io/en/latest/
+  contact:
+  - name: Daniel Franco-Barranco
+    email: daniel.franco@dipc.org
+    github: danifranco
+      affiliation:
+        - name: DIPC
+          url: https://dipc.ehu.eus/en
+collection:
+
+  #------------------------------------- Models ---------------------------------------------
+  - type: application
+    id: BiaPy
+    name: BiaPy
+    description: "BiaPy is an open source Python library for building bioimage analysis pipelines"
+    format_version: 0.2.2
+    source: https://github.com/danifranco
+    authors:
+      - name: BiaPy Team
+    maintainers:
+      - name: BiaPy Team
+        github_user: danifranco
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+    documentation: https://biapy.readthedocs.io/en/latest/
+    covers: ["https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/logos/BiaPy_256.png"]
+    icon: https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/logos/BiaPy_256.png
+
+  #------------------------------------- Notebooks ---------------------------------------------
+
+  # Semantic segmentation
+  - type: application
+    id: Notebook_Semantic_Segmentation_2D_BiaPy
+    name: Semantic Segmentation (2D) - BiaPy
+    description: 2D Semantic Segmentation workflow where the goal is to associate a label to every pixel of the input image. There is no restriction in the type of images that can be used as long as they are 2D files. 
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+                
+    authors:
+      - BiaPy Team
+    covers:
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_semantic_segmentation.png
+
+    badges:
+      - label: Open in Colab
+        icon: https://colab.research.google.com/assets/colab-badge.svg
+        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/semantic_segmentation/BiaPy_2D_Semantic_Segmentation.ipynb
+    documentation: https://biapy.readthedocs.io/en/latest/workflows/semantic_segmentation.html
+    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, segmentation, BiaPy, 2D]
+    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/semantic_segmentation/BiaPy_2D_Semantic_Segmentation.ipynb
+    git_repo: https://github.com/danifranco/BiaPy
+    links:
+      - Notebook Preview
+
+  - type: application
+    id: Notebook_Semantic_Segmentation_3D_BiaPy
+    name: Semantic Segmentation (3D) - BiaPy
+    description: 3D Semantic Segmentation workflow where the goal is to associate a label to every pixel of the input image. There is no restriction in the type of images that can be used as long as they are 3D files. 
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+                
+    authors:
+      - BiaPy Team
+    covers:
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/3d_semantic_segmentation.png
+
+    badges:
+      - label: Open in Colab
+        icon: https://colab.research.google.com/assets/colab-badge.svg
+        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/semantic_segmentation/BiaPy_3D_Semantic_Segmentation.ipynb
+    documentation: https://biapy.readthedocs.io/en/latest/workflows/semantic_segmentation.html
+    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, segmentation, BiaPy, 3D]
+    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/semantic_segmentation/BiaPy_3D_Semantic_Segmentation.ipynb
+    git_repo: https://github.com/danifranco/BiaPy
+    links:
+      - Notebook Preview
+
+  # Instance segmentation
+  - type: application
+    id: Notebook_Instance_Segmentation_2D_BiaPy
+    name: Instance Segmentation (2D) - BiaPy
+    description: 2D Instance Segmentation workflow where the goal is to detect, segment, and classify the individual objects of interest in the input image. BiaPy uses a bottom-up approach in instance segmentation workflows by learning the binary masks, contours, and (optionally) the distance map of the objects of interest. There is no restriction in the type of images that can be used as long as they are 2D files. 
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+                
+    authors:
+      - BiaPy Team
+    covers:
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_instance_segmentation.png
+
+    badges:
+      - label: Open in Colab
+        icon: https://colab.research.google.com/assets/colab-badge.svg
+        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/instance_segmentation/BiaPy_2D_Instance_Segmentation.ipynb
+    documentation: https://biapy.readthedocs.io/en/latest/workflows/instance_segmentation.html
+    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, segmentation, BiaPy, 2D]
+    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/instance_segmentation/BiaPy_2D_Instance_Segmentation.ipynb
+    git_repo: https://github.com/danifranco/BiaPy
+    links:
+      - Notebook Preview
+
+  - type: application
+    id: Notebook_Instance_Segmentation_3D_BiaPy
+    name: Instance Segmentation (3D) - BiaPy
+    description: 3D Instance Segmentation workflow where the goal is to detect, segment, and classify the individual objects of interest in the input image. BiaPy uses a bottom-up approach in instance segmentation workflows by learning the binary masks, contours, and (optionally) the distance map of the objects of interest. There is no restriction in the type of images that can be used as long as they are 3D files. 
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+                
+    authors:
+      - BiaPy Team
+    covers:
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/3d_instance_segmentation.png
+
+    badges:
+      - label: Open in Colab
+        icon: https://colab.research.google.com/assets/colab-badge.svg
+        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/instance_segmentation/BiaPy_3D_Instance_Segmentation.ipynb
+    documentation: https://biapy.readthedocs.io/en/latest/workflows/instance_segmentation.html
+    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, segmentation, BiaPy, 3D]
+    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/instance_segmentation/BiaPy_3D_Instance_Segmentation.ipynb
+    git_repo: https://github.com/danifranco/BiaPy
+    links:
+      - Notebook Preview
+
+  # Detection
+  - type: application
+    id: Notebook_Detection_2D_BiaPy
+    name: Detection (2D) - BiaPy
+    description: 2D Detection workflow where the goal is localize objects in the input image, not requiring a pixel-level class, by extracting individual points at their center of mass. There is no restriction in the type of images that can be used as long as they are 2D files. 
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+                
+    authors:
+      - BiaPy Team
+    covers:
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_detection.png
+
+    badges:
+      - label: Open in Colab
+        icon: https://colab.research.google.com/assets/colab-badge.svg
+        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/detection/BiaPy_2D_Detection.ipynb
+    documentation: https://biapy.readthedocs.io/en/latest/workflows/detection.html
+    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, detection, BiaPy, 2D]
+    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/detection/BiaPy_2D_Detection.ipynb
+    git_repo: https://github.com/danifranco/BiaPy
+    links:
+      - Notebook Preview
+
+  - type: application
+    id: Notebook_Detection_3D_BiaPy
+    name: Detection (3D) - BiaPy
+    description: 3D Detection workflow where the goal is localize objects in the input image, not requiring a pixel-level class, by extracting individual points at their center of mass. There is no restriction in the type of images that can be used as long as they are 3D files. 
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+                
+    authors:
+      - BiaPy Team
+    covers:
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/3d_detection.png
+
+    badges:
+      - label: Open in Colab
+        icon: https://colab.research.google.com/assets/colab-badge.svg
+        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/detection/BiaPy_3D_Detection.ipynb
+    documentation: https://biapy.readthedocs.io/en/latest/workflows/detection.html
+    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, detection, BiaPy, 3D]
+    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/detection/BiaPy_3D_Detection.ipynb
+    git_repo: https://github.com/danifranco/BiaPy
+    links:
+      - Notebook Preview
+
+  # Denoising
+  - type: application
+    id: Notebook_Denoising_2D_BiaPy
+    name: Denoising (2D) - BiaPy
+    description: 2D Denoising workflow where the goal is to remove the noise from the input image. Our library includes Noise2Void without relying on noise image pairs nor clean target images to train the model. There is no restriction in the type of images that can be used as long as they are 2D files. 
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+                
+    authors:
+      - BiaPy Team
+    covers:
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_denoising.png
+
+    badges:
+      - label: Open in Colab
+        icon: https://colab.research.google.com/assets/colab-badge.svg
+        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/denoising/BiaPy_2D_Denoising.ipynb
+    documentation: https://biapy.readthedocs.io/en/latest/workflows/denoising.html
+    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, denoising, Noise2Void, BiaPy, 2D]
+    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/denoising/BiaPy_2D_Denoising.ipynb
+    git_repo: https://github.com/danifranco/BiaPy
+    links:
+      - Notebook Preview
+
+  - type: application
+    id: Notebook_Denoising_3D_BiaPy
+    name: Denoising (3D) - BiaPy
+    description: 3D Denoising workflow where the goal is to remove the noise from the input image. Our library includes Noise2Void without relying on noise image pairs nor clean target images to train the model. There is no restriction in the type of images that can be used as long as they are 3D files. 
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+                
+    authors:
+      - BiaPy Team
+    covers:
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/3d_denoising.png
+
+    badges:
+      - label: Open in Colab
+        icon: https://colab.research.google.com/assets/colab-badge.svg
+        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/denoising/BiaPy_3D_Denoising.ipynb
+    documentation: https://biapy.readthedocs.io/en/latest/workflows/denoising.html
+    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, denoising, Noise2Void, BiaPy, 3D]
+    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/denoising/BiaPy_3D_Denoising.ipynb
+    git_repo: https://github.com/danifranco/BiaPy
+    links:
+      - Notebook Preview
+  
+  # Super-resolution
+  - type: application
+    id: Notebook_Super_Resolution_2D_BiaPy
+    name: Super_Resolution (2D) - BiaPy
+    description: 2D Super Resolution workflow where the goal is to reconstruct high-resolution (HR) images from low-resolution (LR) ones. There is no restriction in the type of images that can be used as long as they are 2D files. 
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+                
+    authors:
+      - BiaPy Team
+    covers:
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_super-resolution.png
+
+    badges:
+      - label: Open in Colab
+        icon: https://colab.research.google.com/assets/colab-badge.svg
+        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/super-resolution/BiaPy_2D_Super_Resolution.ipynb
+    documentation: https://biapy.readthedocs.io/en/latest/workflows/super_resolution.html
+    tags: [colab, workflow, pipeline, notebook, EDSR, DFCAN, WDSR, RCAN, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, Super Resolution, SR, BiaPy, 2D]
+    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/super-resolution/BiaPy_2D_Super_Resolution.ipynb
+    git_repo: https://github.com/danifranco/BiaPy
+    links:
+      - Notebook Preview
+
+  - type: application
+    id: Notebook_Super_Resolution_3D_BiaPy
+    name: Super Resolution (3D) - BiaPy
+    description: 3D Super Resolution workflow where the goal is to reconstruct high-resolution (HR) images from low-resolution (LR) ones. There is no restriction in the type of images that can be used as long as they are 3D files. 
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+                
+    authors:
+      - BiaPy Team
+    covers:
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/3d_super-resolution.png
+
+    badges:
+      - label: Open in Colab
+        icon: https://colab.research.google.com/assets/colab-badge.svg
+        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/super-resolution/BiaPy_3D_Super_Resolution.ipynb
+    documentation: https://biapy.readthedocs.io/en/latest/workflows/super_resolution.html
+    tags: [colab, workflow, pipeline, notebook, EDSR, DFCAN, WDSR, RCAN, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, Super Resolution, SR, BiaPy, 3D]
+    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/super-resolution/BiaPy_3D_Super_Resolution.ipynb
+    git_repo: https://github.com/danifranco/BiaPy
+    links:
+      - Notebook Preview
+  
+  # Self-supervised learning
+  - type: application
+    id: Notebook_Self_Supervision_2D_BiaPy
+    name: Self_Supervision (2D) - BiaPy
+    description: 2D Self Supervision workflow where the idea is to pretrain the backbone model by solving a so-called pretext task without labels. This way, the model learns a representation that can be later transferred to solve a downstream task in a labeled (but smaller) dataset. There is no restriction in the type of images that can be used as long as they are 2D files. 
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+                
+    authors:
+      - BiaPy Team
+    covers:
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_self-supervised.png
+
+    badges:
+      - label: Open in Colab
+        icon: https://colab.research.google.com/assets/colab-badge.svg
+        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/self-supervised/BiaPy_2D_Self_Supervision.ipynb
+    documentation: https://biapy.readthedocs.io/en/latest/workflows/self_supervision.html
+    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, self-supervision, self-supervised, SSL, BiaPy, 2D]
+    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/self-supervised/BiaPy_2D_Self_Supervision.ipynb
+    git_repo: https://github.com/danifranco/BiaPy
+    links:
+      - Notebook Preview
+
+  - type: application
+    id: Notebook_Self_Supervision_3D_BiaPy
+    name: Self_Supervision (3D) - BiaPy
+    description: 3D Self Supervision workflow where the idea is to pretrain the backbone model by solving a so-called pretext task without labels. This way, the model learns a representation that can be later transferred to solve a downstream task in a labeled (but smaller) dataset. There is no restriction in the type of images that can be used as long as they are 3D files. 
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+                
+    authors:
+      - BiaPy Team
+    covers:
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/3d_self-supervised.png
+
+    badges:
+      - label: Open in Colab
+        icon: https://colab.research.google.com/assets/colab-badge.svg
+        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/self-supervised/BiaPy_3D_Self_Supervision.ipynb
+    documentation: https://biapy.readthedocs.io/en/latest/workflows/self_supervision.html
+    tags: [colab, workflow, pipeline, notebook, MAE, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, self-supervision, self-supervised, SSL, BiaPy, 3D]
+    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/self-supervised/BiaPy_3D_Self_Supervision.ipynb
+    git_repo: https://github.com/danifranco/BiaPy
+    links:
+      - Notebook Preview
+
+  # Classification
+  - type: application
+    id: Notebook_Classification_2D_BiaPy
+    name: Classification (2D) - BiaPy
+    description: 2D Classification workflow where full input images are labeled as belonging to a predefined set of classes. There is no restriction in the type of images that can be used as long as they are 2D files. 
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+                
+    authors:
+      - BiaPy Team
+    covers:
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_classification.png
+
+    badges:
+      - label: Open in Colab
+        icon: https://colab.research.google.com/assets/colab-badge.svg
+        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/classification/BiaPy_2D_Classification.ipynb
+    documentation: https://biapy.readthedocs.io/en/latest/workflows/classification.html
+    tags: [colab, workflow, pipeline, notebook, classification, ViT, EfficientNet, Simple CNN, BiaPy, 2D]
+    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/classification/BiaPy_2D_Classification.ipynb
+    git_repo: https://github.com/danifranco/BiaPy
+    links:
+      - Notebook Preview
+
+  - type: application
+    id: Notebook_Classification_3D_BiaPy
+    name: Classification (3D) - BiaPy
+    description: 3D Classification workflow where full input images are labeled as belonging to a predefined set of classes. There is no restriction in the type of images that can be used as long as they are 3D files. 
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+                
+    authors:
+      - BiaPy Team
+    covers:
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/3d_classification.png
+
+    badges:
+      - label: Open in Colab
+        icon: https://colab.research.google.com/assets/colab-badge.svg
+        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/classification/BiaPy_3D_Classification.ipynb
+    documentation: https://biapy.readthedocs.io/en/latest/workflows/classification.html
+    tags: [colab, workflow, pipeline, notebook, classification, ViT, EfficientNet, Simple CNN, BiaPy, 3D]
+    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/classification/BiaPy_3D_Classification.ipynb
+    git_repo: https://github.com/danifranco/BiaPy
+    links:
+      - Notebook Preview
