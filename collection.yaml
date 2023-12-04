@@ -101,7 +101,46 @@ collection:
     format_version: 0.2.2
     source: https://github.com/danifranco
     authors:
-      - name: BiaPy Team
+        - name: "Daniel Franco-Barranco"
+          github_user: danifranco
+          affiliation: "Donostia International Physics Center"
+          orcid: "0000-0002-1109-110X"
+        - name: "Ignacio Arganda-Carreras"
+          github_user: iarganda
+          affiliation: "University of the Basque Country (UPV/EHU)"
+          orcid: "0000-0003-0229-5722"
+        - name: "Arrate Muñoz-Barrutia"
+          github_user: arratemunoz
+          affiliation: "Universidad Carlos III de Madrid"
+          orcid: "0000-0002-1573-1661"
+        - name: "Jesús Ángel Andrés-San Román"
+          github_user: jansanrom
+          affiliation: "University of Seville"
+          orcid: "0000-0003-3197-5014"
+        - name: "Pedro Javier Gómez Gálvez"
+          github_user: pedgomgal1
+          affiliation: "Cambridge University"
+          orcid: "0000-0002-0509-227X"
+        - name: "Luis M. Escudero"
+          github_user: lmescu
+          affiliation: "University of Seville"
+          orcid: "0000-0001-8030-1820"
+        - name: "Iván Hidalgo Cenalmor"
+          github_user: IvanHCenalmor
+          affiliation: "Instituto Gulbenkian de Ciência"
+          orcid: "0009-0000-8923-568X"
+        - name: "Lenka Backová"
+          github_user: lenkaback
+          affiliation: "Biofisika Institute"
+          orcid: "0000-0002-3076-2618"
+        - name: "Aitor Gonzalez-Marfil"
+          github_user: AAitorG
+          affiliation: "University of the Basque Country (UPV/EHU)"
+          orcid: "0000-0003-1367-4154"
+        - name: "Donglai Wei"
+          github_user: donglaiw
+          affiliation: "Boston College"
+          orcid: "0000-0002-2329-5484"
     maintainers:
       - name: BiaPy Team
         github_user: danifranco
