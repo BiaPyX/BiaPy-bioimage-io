@@ -149,7 +149,7 @@ collection:
         doi: 10.1109/ISBI53787.2023.10230593
     documentation: https://biapy.readthedocs.io/en/latest/
     covers: ["https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/logos/BiaPy_256.png"]
-    icon: https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/logos/BiaPy_256.png
+    icon: https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/logos/BiaPy_512.png
 
   #------------------------------------- Notebooks ---------------------------------------------
 
