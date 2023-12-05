@@ -189,7 +189,7 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/3d_semantic_segmentation.png
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_semantic_segmentation.png
 
     badges:
       - label: Open in Colab
@@ -238,7 +238,7 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/3d_instance_segmentation.png
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_instance_segmentation.png
 
     badges:
       - label: Open in Colab
@@ -287,7 +287,7 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/3d_detection.png
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_detection.png
 
     badges:
       - label: Open in Colab
@@ -336,7 +336,7 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/3d_denoising.png
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_denoising.png
 
     badges:
       - label: Open in Colab
@@ -385,7 +385,7 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/3d_super-resolution.png
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_super-resolution.png
 
     badges:
       - label: Open in Colab
@@ -434,7 +434,7 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/3d_self-supervised.png
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_self-supervised.png
 
     badges:
       - label: Open in Colab
@@ -483,7 +483,7 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/3d_classification.png
+      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_classification.png
 
     badges:
       - label: Open in Colab
