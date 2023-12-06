@@ -150,6 +150,7 @@ collection:
     documentation: https://biapy.readthedocs.io/en/latest/
     covers: ["https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/logos/BiaPy_256.png"]
     icon: https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/logos/BiaPy_512.png
+    tags: [software, biapy]
 
   #------------------------------------- Notebooks ---------------------------------------------
 
