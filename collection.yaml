@@ -44,6 +44,10 @@ authors:
     github_user: donglaiw
     affiliation: "Boston College"
     orcid: "0000-0002-2329-5484"
+  - name: "Clement Caporal"
+    github_user: ClementCaporal
+    affiliation: "Laboratory of Optics and Bioscience"
+    orcid: "0000-0002-9441-9173"
 documentation: https://biapy.readthedocs.io/en/latest/
 maintainers:
   - name: "Daniel Franco-Barranco"
@@ -71,8 +75,8 @@ config:
   version: 3.1.0
   tags:
     - BiaPy
-  logo: https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/logos/BiaPy_256.png
-  icon: https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/logos/BiaPy_256.png
+  logo: https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/logos/BiaPy_256.png
+  icon: https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/logos/BiaPy_256.png
   splash_title: BiaPy
   splash_subtitle: "BiaPy is an open source Python library for building bioimage analysis pipelines"
   splash_feature_list: []
@@ -82,7 +86,7 @@ config:
     - model
     - application
   default_type: model
-  url_root: https://github.com/danifranco/BiaPy-bioimage-io
+  url_root: https://github.com/BiaPyX/BiaPy-bioimage-io
   docs: https://biapy.readthedocs.io/en/latest/
   contact:
   - name: Daniel Franco-Barranco
@@ -99,7 +103,7 @@ collection:
     name: BiaPy
     description: "BiaPy is an open source Python library for building bioimage analysis pipelines"
     format_version: 0.2.2
-    source: https://github.com/danifranco
+    source: https://github.com/BiaPyX
     authors:
         - name: "Daniel Franco-Barranco"
           github_user: danifranco
@@ -141,6 +145,10 @@ collection:
           github_user: donglaiw
           affiliation: "Boston College"
           orcid: "0000-0002-2329-5484"
+        - name: "Clement Caporal"
+          github_user: ClementCaporal
+          affiliation: "Laboratory of Optics and Bioscience"
+          orcid: "0000-0002-9441-9173"
     maintainers:
       - name: BiaPy Team
         github_user: danifranco
@@ -148,8 +156,8 @@ collection:
       - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
         doi: 10.1109/ISBI53787.2023.10230593
     documentation: https://biapy.readthedocs.io/en/latest/
-    covers: ["https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/logos/BiaPy_256.png"]
-    icon: https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/logos/BiaPy_512.png
+    covers: ["https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/logos/BiaPy_256.png"]
+    icon: https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/logos/BiaPy_512.png
     tags: [software, biapy]
 
   #------------------------------------- Notebooks ---------------------------------------------
@@ -166,16 +174,16 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_semantic_segmentation.png
+      - https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/images/2d_semantic_segmentation.png
 
     badges:
       - label: Open in Colab
         icon: https://colab.research.google.com/assets/colab-badge.svg
-        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/semantic_segmentation/BiaPy_2D_Semantic_Segmentation.ipynb
+        url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/semantic_segmentation/BiaPy_2D_Semantic_Segmentation.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/semantic_segmentation.html
     tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, segmentation, BiaPy, 2D]
-    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/semantic_segmentation/BiaPy_2D_Semantic_Segmentation.ipynb
-    git_repo: https://github.com/danifranco/BiaPy
+    download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/semantic_segmentation/BiaPy_2D_Semantic_Segmentation.ipynb
+    git_repo: https://github.com/BiaPyX/BiaPy
     links:
       - Notebook Preview
 
@@ -190,16 +198,16 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_semantic_segmentation.png
+      - https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/images/2d_semantic_segmentation.png
 
     badges:
       - label: Open in Colab
         icon: https://colab.research.google.com/assets/colab-badge.svg
-        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/semantic_segmentation/BiaPy_3D_Semantic_Segmentation.ipynb
+        url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/semantic_segmentation/BiaPy_3D_Semantic_Segmentation.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/semantic_segmentation.html
     tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, segmentation, BiaPy, 3D]
-    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/semantic_segmentation/BiaPy_3D_Semantic_Segmentation.ipynb
-    git_repo: https://github.com/danifranco/BiaPy
+    download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/semantic_segmentation/BiaPy_3D_Semantic_Segmentation.ipynb
+    git_repo: https://github.com/BiaPyX/BiaPy
     links:
       - Notebook Preview
 
@@ -215,16 +223,16 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_instance_segmentation.png
+      - https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/images/2d_instance_segmentation.png
 
     badges:
       - label: Open in Colab
         icon: https://colab.research.google.com/assets/colab-badge.svg
-        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/instance_segmentation/BiaPy_2D_Instance_Segmentation.ipynb
+        url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/instance_segmentation/BiaPy_2D_Instance_Segmentation.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/instance_segmentation.html
     tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, segmentation, BiaPy, 2D]
-    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/instance_segmentation/BiaPy_2D_Instance_Segmentation.ipynb
-    git_repo: https://github.com/danifranco/BiaPy
+    download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/instance_segmentation/BiaPy_2D_Instance_Segmentation.ipynb
+    git_repo: https://github.com/BiaPyX/BiaPy
     links:
       - Notebook Preview
 
@@ -239,16 +247,16 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_instance_segmentation.png
+      - https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/images/2d_instance_segmentation.png
 
     badges:
       - label: Open in Colab
         icon: https://colab.research.google.com/assets/colab-badge.svg
-        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/instance_segmentation/BiaPy_3D_Instance_Segmentation.ipynb
+        url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/instance_segmentation/BiaPy_3D_Instance_Segmentation.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/instance_segmentation.html
     tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, segmentation, BiaPy, 3D]
-    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/instance_segmentation/BiaPy_3D_Instance_Segmentation.ipynb
-    git_repo: https://github.com/danifranco/BiaPy
+    download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/instance_segmentation/BiaPy_3D_Instance_Segmentation.ipynb
+    git_repo: https://github.com/BiaPyX/BiaPy
     links:
       - Notebook Preview
 
@@ -264,16 +272,16 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_detection.png
+      - https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/images/2d_detection.png
 
     badges:
       - label: Open in Colab
         icon: https://colab.research.google.com/assets/colab-badge.svg
-        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/detection/BiaPy_2D_Detection.ipynb
+        url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/detection/BiaPy_2D_Detection.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/detection.html
     tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, detection, BiaPy, 2D]
-    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/detection/BiaPy_2D_Detection.ipynb
-    git_repo: https://github.com/danifranco/BiaPy
+    download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/detection/BiaPy_2D_Detection.ipynb
+    git_repo: https://github.com/BiaPyX/BiaPy
     links:
       - Notebook Preview
 
@@ -288,16 +296,16 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_detection.png
+      - https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/images/2d_detection.png
 
     badges:
       - label: Open in Colab
         icon: https://colab.research.google.com/assets/colab-badge.svg
-        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/detection/BiaPy_3D_Detection.ipynb
+        url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/detection/BiaPy_3D_Detection.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/detection.html
     tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, detection, BiaPy, 3D]
-    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/detection/BiaPy_3D_Detection.ipynb
-    git_repo: https://github.com/danifranco/BiaPy
+    download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/detection/BiaPy_3D_Detection.ipynb
+    git_repo: https://github.com/BiaPyX/BiaPy
     links:
       - Notebook Preview
 
@@ -313,16 +321,16 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_denoising.png
+      - https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/images/2d_denoising.png
 
     badges:
       - label: Open in Colab
         icon: https://colab.research.google.com/assets/colab-badge.svg
-        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/denoising/BiaPy_2D_Denoising.ipynb
+        url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/denoising/BiaPy_2D_Denoising.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/denoising.html
     tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, denoising, Noise2Void, BiaPy, 2D]
-    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/denoising/BiaPy_2D_Denoising.ipynb
-    git_repo: https://github.com/danifranco/BiaPy
+    download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/denoising/BiaPy_2D_Denoising.ipynb
+    git_repo: https://github.com/BiaPyX/BiaPy
     links:
       - Notebook Preview
 
@@ -337,16 +345,16 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_denoising.png
+      - https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/images/2d_denoising.png
 
     badges:
       - label: Open in Colab
         icon: https://colab.research.google.com/assets/colab-badge.svg
-        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/denoising/BiaPy_3D_Denoising.ipynb
+        url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/denoising/BiaPy_3D_Denoising.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/denoising.html
     tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, denoising, Noise2Void, BiaPy, 3D]
-    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/denoising/BiaPy_3D_Denoising.ipynb
-    git_repo: https://github.com/danifranco/BiaPy
+    download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/denoising/BiaPy_3D_Denoising.ipynb
+    git_repo: https://github.com/BiaPyX/BiaPy
     links:
       - Notebook Preview
   
@@ -362,16 +370,16 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_super-resolution.png
+      - https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/images/2d_super-resolution.png
 
     badges:
       - label: Open in Colab
         icon: https://colab.research.google.com/assets/colab-badge.svg
-        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/super-resolution/BiaPy_2D_Super_Resolution.ipynb
+        url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/super-resolution/BiaPy_2D_Super_Resolution.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/super_resolution.html
     tags: [colab, workflow, pipeline, notebook, EDSR, DFCAN, WDSR, RCAN, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, Super Resolution, SR, BiaPy, 2D]
-    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/super-resolution/BiaPy_2D_Super_Resolution.ipynb
-    git_repo: https://github.com/danifranco/BiaPy
+    download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/super-resolution/BiaPy_2D_Super_Resolution.ipynb
+    git_repo: https://github.com/BiaPyX/BiaPy
     links:
       - Notebook Preview
 
@@ -386,16 +394,16 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_super-resolution.png
+      - https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/images/2d_super-resolution.png
 
     badges:
       - label: Open in Colab
         icon: https://colab.research.google.com/assets/colab-badge.svg
-        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/super-resolution/BiaPy_3D_Super_Resolution.ipynb
+        url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/super-resolution/BiaPy_3D_Super_Resolution.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/super_resolution.html
     tags: [colab, workflow, pipeline, notebook, EDSR, DFCAN, WDSR, RCAN, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, Super Resolution, SR, BiaPy, 3D]
-    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/super-resolution/BiaPy_3D_Super_Resolution.ipynb
-    git_repo: https://github.com/danifranco/BiaPy
+    download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/super-resolution/BiaPy_3D_Super_Resolution.ipynb
+    git_repo: https://github.com/BiaPyX/BiaPy
     links:
       - Notebook Preview
   
@@ -411,16 +419,16 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_self-supervised.png
+      - https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/images/2d_self-supervised.png
 
     badges:
       - label: Open in Colab
         icon: https://colab.research.google.com/assets/colab-badge.svg
-        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/self-supervised/BiaPy_2D_Self_Supervision.ipynb
+        url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/self-supervised/BiaPy_2D_Self_Supervision.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/self_supervision.html
     tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, self-supervision, self-supervised, SSL, BiaPy, 2D]
-    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/self-supervised/BiaPy_2D_Self_Supervision.ipynb
-    git_repo: https://github.com/danifranco/BiaPy
+    download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/self-supervised/BiaPy_2D_Self_Supervision.ipynb
+    git_repo: https://github.com/BiaPyX/BiaPy
     links:
       - Notebook Preview
 
@@ -435,16 +443,16 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_self-supervised.png
+      - https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/images/2d_self-supervised.png
 
     badges:
       - label: Open in Colab
         icon: https://colab.research.google.com/assets/colab-badge.svg
-        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/self-supervised/BiaPy_3D_Self_Supervision.ipynb
+        url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/self-supervised/BiaPy_3D_Self_Supervision.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/self_supervision.html
     tags: [colab, workflow, pipeline, notebook, MAE, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, self-supervision, self-supervised, SSL, BiaPy, 3D]
-    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/self-supervised/BiaPy_3D_Self_Supervision.ipynb
-    git_repo: https://github.com/danifranco/BiaPy
+    download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/self-supervised/BiaPy_3D_Self_Supervision.ipynb
+    git_repo: https://github.com/BiaPyX/BiaPy
     links:
       - Notebook Preview
 
@@ -460,16 +468,16 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_classification.png
+      - https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/images/2d_classification.png
 
     badges:
       - label: Open in Colab
         icon: https://colab.research.google.com/assets/colab-badge.svg
-        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/classification/BiaPy_2D_Classification.ipynb
+        url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/classification/BiaPy_2D_Classification.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/classification.html
     tags: [colab, workflow, pipeline, notebook, classification, ViT, EfficientNet, Simple CNN, BiaPy, 2D]
-    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/classification/BiaPy_2D_Classification.ipynb
-    git_repo: https://github.com/danifranco/BiaPy
+    download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/classification/BiaPy_2D_Classification.ipynb
+    git_repo: https://github.com/BiaPyX/BiaPy
     links:
       - Notebook Preview
 
@@ -484,15 +492,15 @@ collection:
     authors:
       - BiaPy Team
     covers:
-      - https://raw.githubusercontent.com/danifranco/BiaPy-bioimage-io/main/images/2d_classification.png
+      - https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/images/2d_classification.png
 
     badges:
       - label: Open in Colab
         icon: https://colab.research.google.com/assets/colab-badge.svg
-        url: https://colab.research.google.com/github/danifranco/BiaPy/blob/master/notebooks/classification/BiaPy_3D_Classification.ipynb
+        url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/classification/BiaPy_3D_Classification.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/classification.html
     tags: [colab, workflow, pipeline, notebook, classification, ViT, EfficientNet, Simple CNN, BiaPy, 3D]
-    download_url: https://raw.githubusercontent.com/danifranco/BiaPy/master/notebooks/classification/BiaPy_3D_Classification.ipynb
-    git_repo: https://github.com/danifranco/BiaPy
+    download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/classification/BiaPy_3D_Classification.ipynb
+    git_repo: https://github.com/BiaPyX/BiaPy
     links:
       - Notebook Preview
