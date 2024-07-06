@@ -72,7 +72,7 @@ cite:
 config: 
   id: biapy
   name: BiaPy
-  version: 3.1.0
+  version: 3.4.6
   tags:
     - BiaPy
   logo: https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/logos/BiaPy_256.png
@@ -181,7 +181,7 @@ collection:
         icon: https://colab.research.google.com/assets/colab-badge.svg
         url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/semantic_segmentation/BiaPy_2D_Semantic_Segmentation.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/semantic_segmentation.html
-    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, segmentation, BiaPy, 2D]
+    tags: [colab, workflow, pipeline, notebook, unet, resunet, resunet++, attention-unet, multiresunet, se-unet, resunet-se, unext_v1, semantic-segmentation, biapy, 2d, pytorch]
     download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/semantic_segmentation/BiaPy_2D_Semantic_Segmentation.ipynb
     git_repo: https://github.com/BiaPyX/BiaPy
     links:
@@ -205,7 +205,7 @@ collection:
         icon: https://colab.research.google.com/assets/colab-badge.svg
         url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/semantic_segmentation/BiaPy_3D_Semantic_Segmentation.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/semantic_segmentation.html
-    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, segmentation, BiaPy, 3D]
+    tags: [colab, workflow, pipeline, notebook, unet, resunet, resunet++, attention-unet, multiresunet, se-unet, resunet-se, unext_v1, semantic-segmentation, biapy, 3d, pytorch]
     download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/semantic_segmentation/BiaPy_3D_Semantic_Segmentation.ipynb
     git_repo: https://github.com/BiaPyX/BiaPy
     links:
@@ -230,7 +230,7 @@ collection:
         icon: https://colab.research.google.com/assets/colab-badge.svg
         url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/instance_segmentation/BiaPy_2D_Instance_Segmentation.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/instance_segmentation.html
-    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, segmentation, BiaPy, 2D]
+    tags: [colab, workflow, pipeline, notebook, unet, resunet, resunet++, attention-unet, multiresunet, se-unet, resunet-se, unext_v1, semantic-segmentation, biapy, 2d, pytorch]
     download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/instance_segmentation/BiaPy_2D_Instance_Segmentation.ipynb
     git_repo: https://github.com/BiaPyX/BiaPy
     links:
@@ -254,7 +254,7 @@ collection:
         icon: https://colab.research.google.com/assets/colab-badge.svg
         url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/instance_segmentation/BiaPy_3D_Instance_Segmentation.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/instance_segmentation.html
-    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, segmentation, BiaPy, 3D]
+    tags: [colab, workflow, pipeline, notebook, unet, resunet, resunet++, attention-unet, multiresunet, se-unet, resunet-se, unext_v1, semantic-segmentation, biapy, 3d, pytorch]
     download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/instance_segmentation/BiaPy_3D_Instance_Segmentation.ipynb
     git_repo: https://github.com/BiaPyX/BiaPy
     links:
@@ -279,7 +279,7 @@ collection:
         icon: https://colab.research.google.com/assets/colab-badge.svg
         url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/detection/BiaPy_2D_Detection.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/detection.html
-    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, detection, BiaPy, 2D]
+    tags: [colab, workflow, pipeline, notebook, unet, resunet, resunet++, attention-unet, multiresunet, se-unet, resunet-se, unext_v1, detection, biapy, 2d, pytorch]
     download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/detection/BiaPy_2D_Detection.ipynb
     git_repo: https://github.com/BiaPyX/BiaPy
     links:
@@ -303,7 +303,7 @@ collection:
         icon: https://colab.research.google.com/assets/colab-badge.svg
         url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/detection/BiaPy_3D_Detection.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/detection.html
-    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, detection, BiaPy, 3D]
+    tags: [colab, workflow, pipeline, notebook, unet, resunet, resunet++, attention-unet, multiresunet, se-unet, resunet-se, unext_v1, detection, biapy, 3d, pytorch]
     download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/detection/BiaPy_3D_Detection.ipynb
     git_repo: https://github.com/BiaPyX/BiaPy
     links:
@@ -328,7 +328,7 @@ collection:
         icon: https://colab.research.google.com/assets/colab-badge.svg
         url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/denoising/BiaPy_2D_Denoising.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/denoising.html
-    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, denoising, Noise2Void, BiaPy, 2D]
+    tags: [colab, workflow, pipeline, notebook, unet, resunet, resunet++, attention-unet, multiresunet, se-unet, resunet-se, unext_v1, denoising, Noise2Void, biapy, 2d, pytorch]
     download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/denoising/BiaPy_2D_Denoising.ipynb
     git_repo: https://github.com/BiaPyX/BiaPy
     links:
@@ -352,7 +352,7 @@ collection:
         icon: https://colab.research.google.com/assets/colab-badge.svg
         url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/denoising/BiaPy_3D_Denoising.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/denoising.html
-    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, denoising, Noise2Void, BiaPy, 3D]
+    tags: [colab, workflow, pipeline, notebook, unet, resunet, resunet++, attention-unet, multiresunet, se-unet, resunet-se, unext_v1, denoising, Noise2Void, biapy, 3d, pytorch]
     download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/denoising/BiaPy_3D_Denoising.ipynb
     git_repo: https://github.com/BiaPyX/BiaPy
     links:
@@ -377,7 +377,7 @@ collection:
         icon: https://colab.research.google.com/assets/colab-badge.svg
         url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/super-resolution/BiaPy_2D_Super_Resolution.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/super_resolution.html
-    tags: [colab, workflow, pipeline, notebook, EDSR, DFCAN, WDSR, RCAN, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, Super Resolution, SR, BiaPy, 2D]
+    tags: [colab, workflow, pipeline, notebook, edsr, dfcan, wdsr, rcan, unet, resunet, resunet++, attention-unet, multiresunet, se-unet, resunet-se, unext_v1, Super Resolution, super-resolution, biapy, 2d, pytorch]
     download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/super-resolution/BiaPy_2D_Super_Resolution.ipynb
     git_repo: https://github.com/BiaPyX/BiaPy
     links:
@@ -401,7 +401,7 @@ collection:
         icon: https://colab.research.google.com/assets/colab-badge.svg
         url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/super-resolution/BiaPy_3D_Super_Resolution.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/super_resolution.html
-    tags: [colab, workflow, pipeline, notebook, EDSR, DFCAN, WDSR, RCAN, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, Super Resolution, SR, BiaPy, 3D]
+    tags: [colab, workflow, pipeline, notebook, edsr, dfcan, wdsr, rcan, unet, resunet, resunet++, attention-unet, multiresunet, se-unet, resunet-se, unext_v1, Super Resolution, super-resolution, biapy, 3d, pytorch]
     download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/super-resolution/BiaPy_3D_Super_Resolution.ipynb
     git_repo: https://github.com/BiaPyX/BiaPy
     links:
@@ -426,7 +426,7 @@ collection:
         icon: https://colab.research.google.com/assets/colab-badge.svg
         url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/self-supervised/BiaPy_2D_Self_Supervision.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/self_supervision.html
-    tags: [colab, workflow, pipeline, notebook, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, self-supervision, self-supervised, SSL, BiaPy, 2D]
+    tags: [colab, workflow, pipeline, notebook, unet, resunet, resunet++, attention-unet, multiresunet, se-unet, resunet-se, unext_v1, self-supervision, self-supervised, SSL, biapy, 2d, pytorch]
     download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/self-supervised/BiaPy_2D_Self_Supervision.ipynb
     git_repo: https://github.com/BiaPyX/BiaPy
     links:
@@ -450,7 +450,7 @@ collection:
         icon: https://colab.research.google.com/assets/colab-badge.svg
         url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/self-supervised/BiaPy_3D_Self_Supervision.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/self_supervision.html
-    tags: [colab, workflow, pipeline, notebook, MAE, U-Net, ResU-Net, ResUNet++, Attention U-Net, MultiResUNet, SE U-Net, self-supervision, self-supervised, SSL, BiaPy, 3D]
+    tags: [colab, workflow, pipeline, notebook, MAE, unet, resunet, resunet++, attention-unet, multiresunet, se-unet, resunet-se, unext_v1, self-supervision, self-supervised, SSL, biapy, 3d, pytorch]
     download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/self-supervised/BiaPy_3D_Self_Supervision.ipynb
     git_repo: https://github.com/BiaPyX/BiaPy
     links:
@@ -475,7 +475,7 @@ collection:
         icon: https://colab.research.google.com/assets/colab-badge.svg
         url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/classification/BiaPy_2D_Classification.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/classification.html
-    tags: [colab, workflow, pipeline, notebook, classification, ViT, EfficientNet, Simple CNN, BiaPy, 2D]
+    tags: [colab, workflow, pipeline, notebook, classification, ViT, EfficientNet, Simple CNN, biapy, 2d, pytorch]
     download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/classification/BiaPy_2D_Classification.ipynb
     git_repo: https://github.com/BiaPyX/BiaPy
     links:
@@ -499,8 +499,57 @@ collection:
         icon: https://colab.research.google.com/assets/colab-badge.svg
         url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/classification/BiaPy_3D_Classification.ipynb
     documentation: https://biapy.readthedocs.io/en/latest/workflows/classification.html
-    tags: [colab, workflow, pipeline, notebook, classification, ViT, EfficientNet, Simple CNN, BiaPy, 3D]
+    tags: [colab, workflow, pipeline, notebook, classification, ViT, EfficientNet, Simple CNN, biapy, 3d, pytorch]
     download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/classification/BiaPy_3D_Classification.ipynb
+    git_repo: https://github.com/BiaPyX/BiaPy
+    links:
+      - Notebook Preview
+
+# Image to image
+  - type: application
+    id: notebook_image_to_image_2d
+    name: Image to image (2D) - BiaPy
+    description: 2D Image to image workflow where the goal of this workflow aims at translating/mapping input images into target images. There is no restriction in the type of images that can be used as long as they are 2D files. 
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+                
+    authors:
+      - BiaPy Team
+    covers:
+      - https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/images/2d_image_to_image.png
+
+    badges:
+      - label: Open in Colab
+        icon: https://colab.research.google.com/assets/colab-badge.svg
+        url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/image_to_image/BiaPy_2D_Image_to_Image.ipynb
+    documentation: https://biapy.readthedocs.io/en/latest/workflows/image_to_image.html
+    tags: [colab, workflow, pipeline, notebook, edsr, rcan, dfcan, wdsr, unet, resunet, resunet++, seunet, attention-unet, unetr, multiresunet, unext-v1, image-to-image, image-reconstruction, image-restoration, biapy, 2d, pytorch]
+    download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/image_to_image/BiaPy_2D_Image_to_Image.ipynb
+    git_repo: https://github.com/BiaPyX/BiaPy
+    links:
+      - Notebook Preview
+
+  - type: application
+    id: notebook_image_to_image_3d
+    name: Image to image (3D) - BiaPy
+    description: 3D Image to image workflow where the goal of this workflow aims at translating/mapping input images into target images. There is no restriction in the type of images that can be used as long as they are 3D files. 
+    cite:
+      - text: "BiaPy: a ready-to-use library for Bioimage Analysis Pipelines. 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)"
+        doi: 10.1109/ISBI53787.2023.10230593
+                
+    authors:
+      - BiaPy Team
+    covers:
+      - https://raw.githubusercontent.com/BiaPyX/BiaPy-bioimage-io/main/images/2d_image_to_image.png
+
+    badges:
+      - label: Open in Colab
+        icon: https://colab.research.google.com/assets/colab-badge.svg
+        url: https://colab.research.google.com/github/BiaPyX/BiaPy/blob/master/notebooks/image_to_image/BiaPy_3D_Image_to_Image.ipynb
+    documentation: https://biapy.readthedocs.io/en/latest/workflows/image_to_image.html
+    tags: [colab, workflow, pipeline, notebook, edsr, rcan, dfcan, wdsr, unet, resunet, resunet++, seunet, attention-unet, unetr, multiresunet, unext-v1, image-to-image, image-reconstruction, image-restoration, biapy, 3d, pytorch]
+    download_url: https://raw.githubusercontent.com/BiaPyX/BiaPy/master/notebooks/image_to_image/BiaPy_3D_Image_to_Image.ipynb
     git_repo: https://github.com/BiaPyX/BiaPy
     links:
       - Notebook Preview
